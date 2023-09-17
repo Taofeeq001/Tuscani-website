@@ -25,7 +25,7 @@ export const destinations = [
         everyday: "Monday",
         icon2: <PiTimer/>, 
         pp: "10 - 30 PP",
-        details: ""
+        details: "Visiting the 5 Terre is a must, and you can never go there enough ... "
     },
     {
         img: cinque,
@@ -39,7 +39,7 @@ export const destinations = [
         details: "Visiting the 5 Terre is a must, and you can never go there enough ... "
     },
     {
-        img: last,
+        img: luca,
         title: "Siena and Surrounding",
         from : "from",
         amount: "34$",
