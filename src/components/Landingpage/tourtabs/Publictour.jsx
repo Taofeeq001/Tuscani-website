@@ -7,10 +7,10 @@ import {MdOutlineTour} from 'react-icons/md'
 
 const Publictour = () => {
     return (
-        <div className='bg-white rounded-xl rounded-tl-none flex w-full justify-between py-4'>
+        <div className='bg-white rounded-xl px-2 rounded-tl-none flex w-full justify-between py-4'>
             <div className='flex gap-1 border-r-slate-300'>
-                <IoIosPeople />
-                <div className='flex flex-col'>
+                <IoIosPeople className='w-[24px] h-[24px]' />
+                <div className='flex flex-col gap-3'>
                     <b>Number of People</b>
                     <select name="" id="">
                         <option value="">Choose number</option>
@@ -22,19 +22,14 @@ const Publictour = () => {
                 </div>
             </div>
             <div className='flex gap-1 border-r-slate-300'>
-                <BsCalendarDate/>
+                <BsCalendarDate className='w-[24px] h-[24px]'/>
                 <div className='flex flex-col gap-3'>
                     <b>Date</b>
-                    <select name="" id="">
-                        <option value="">Choose Date</option>
-                        <option value="">
-                            <input type="date" name="" id="" />
-                        </option>
-                    </select>
+                    <input type="date" name="" id="" />
                 </div>
             </div>
             <div className='flex gap-1 border-r-slate-300'>
-                <PiTimer/>
+                <PiTimer className='w-[24px] h-[24px]'/>
                 <div className='flex flex-col gap-3'>
                     <b>Time</b>
                     <select name="" id="">
@@ -48,7 +43,7 @@ const Publictour = () => {
                 </div>
             </div>
             <div className='flex gap-1 border-r-slate-300'>
-                <MdOutlineTour/>
+                <MdOutlineTour className='w-[24px] h-[24px]'/>
                 <div className='flex flex-col gap-3'>
                     <b>Tour</b>
                     <select className='w-[60%]' name="" id="">
@@ -65,7 +60,7 @@ const Publictour = () => {
                 </div>
             </div>
             <div className='flex gap-1 border-r-slate-300'>
-                <BsCarFront/>
+                <BsCarFront className='w-[24px] h-[24px]'/>
                 <div className='flex flex-col gap-3'>
                     <b>Transportation</b>
                     <select name="" id="">
@@ -76,6 +71,9 @@ const Publictour = () => {
                     </select>
                 </div>
             </div>
+            <button className='bg-[orange] rounded-2xl py-5 px-4'>
+                <BsCarFront className='w-[24px] h-[24px]'/>
+            </button>
         </div>
     )
 }

@@ -9,6 +9,7 @@ import { FiX } from 'react-icons/fi'
 
 const Header = () => {
     const [openHamburger, setOpenHamburger] = useState(false)
+    const [login, setLogin] = useState(false)
 
     const handleHamburger = () => {
         setOpenHamburger(!openHamburger)
@@ -32,7 +33,7 @@ const Header = () => {
                         <option value="ar">Ar</option>
                         <option value="fr">Fr</option>
                     </select>
-                    <Link className='text-white' href="/login" >Login</Link>
+                    <p onClick={handlelogin} className='text-white' >Login</p>
                     <Link className='px-3 py-2 cursor-pointer bg-[orange] rounded-lg text-white' href="/signup" >Sign Up</Link>
                 </div>
             </div>
