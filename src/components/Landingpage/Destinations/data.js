@@ -39,7 +39,7 @@ export const destinations = [
         details: "Visiting the 5 Terre is a must, and you can never go there enough ... "
     },
     {
-        img: luca,
+        img: last,
         title: "Siena and Surrounding",
         from : "from",
         amount: "34$",
