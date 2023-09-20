@@ -46,7 +46,7 @@ const Publictour = () => {
                 <MdOutlineTour className='w-[24px] h-[24px]'/>
                 <div className='flex flex-col gap-3'>
                     <b>Tour</b>
-                    <select className='w-[60%]' name="" id="">
+                    <select className='w-[full]' name="" id="">
                         <option value="">Select Tour</option>
                         <option value="">Lucca Bike Tour</option>
                         <option value="">Book a bike </option>

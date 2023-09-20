@@ -49,4 +49,15 @@ export const destinations = [
         pp: "5 - 10 PP",
         details: "Visit the beautiful Siena and the cities that surround it to experience ..."
     },
+    {
+        img: luca,
+        title: "Siena and Surrounding",
+        from : "from",
+        amount: "34$",
+        icon: <PiTimer/>,
+        everyday: "To be Unknown",
+        icon2: <PiTimer/>, 
+        pp: "5 - 10 PP",
+        details: "Visit the beautiful Siena and the cities that surround it to experience ..."
+    },
 ]

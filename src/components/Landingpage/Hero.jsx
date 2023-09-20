@@ -29,8 +29,8 @@ const Hero = () => {
           <h1 className='lg: text-5xl font-bold text-white'>Enjoy in the Best Way!</h1>
           <p className='font-bold text-white'>Enjoy our Service for your trip anytime</p>
         </div>
-        <div className='w-[70%] backdrop-blur-[10px] rounded-3xl p-4 flex flex-col'>
-          <button className='flex rounded-t-xl w-[23%] h-10 items-center justify-between bg-slate-400 '>
+        <div className='w-[75%] backdrop-blur-[10px] rounded-3xl p-4 flex flex-col'>
+          <button className='flex rounded-t-xl w-[25%] h-10 items-center justify-between bg-slate-400 '>
             {
               tabs.map((tab) => {
                 return (
