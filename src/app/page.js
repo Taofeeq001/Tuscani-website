@@ -1,6 +1,8 @@
 import Bikeservice from '@/components/Landingpage/Bikeservice/Bikeservice'
 import Destinations from '@/components/Landingpage/Destinations/Destinations'
 import Hero from '@/components/Landingpage/Hero'
+import Popularpackage from '@/components/Landingpage/PopularPackage/Popularpackage'
+import Testimony from '@/components/Landingpage/Testimony/Testimony'
 import Transportprops from '@/components/Landingpage/props/Transportprops'
 
 export default function Home() {
@@ -23,6 +25,8 @@ export default function Home() {
         paragraph4="Do you need not only a bike but also a driver? Then you have found the right place!"
       />
       <Bikeservice/>
+      <Popularpackage/>
+      <Testimony/>
     </div>
   )
 }
