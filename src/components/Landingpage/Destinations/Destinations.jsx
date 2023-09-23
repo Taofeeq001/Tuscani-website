@@ -90,9 +90,9 @@ const Destinations = () => {
                 </div>
             </div>
             <div className='bg-[url(/Images/orange-bg.svg)] relative bg-no-repeat lg:px-[10%]  bg-center flex lg:flex-row flex-col py-10'>
-                <div className='w-1/2 flex flex-col items-center justify-center'>
-                    <div className='rounded-2xl p-20 gap-3 flex flex-col items-center text-center bg-[#f3e4c8]'>
-                        <p>Get Special Offers for Organizations</p>
+                <div className='w-[40%] flex flex-col items-center justify-center'>
+                    <div className='rounded-2xl p-16 gap-3 flex flex-col items-center text-center bg-[#f3e4c8]'>
+                        <p className='font-bold text-3xl'>Get Special Offers for Organizations</p>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         <Link
                             href="/contact"
