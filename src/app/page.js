@@ -1,5 +1,6 @@
 import Bikeservice from '@/components/Landingpage/Bikeservice/Bikeservice'
 import Destinations from '@/components/Landingpage/Destinations/Destinations'
+import Footer from '@/components/Landingpage/Footer'
 import Hero from '@/components/Landingpage/Hero'
 import Popularpackage from '@/components/Landingpage/PopularPackage/Popularpackage'
 import Testimony from '@/components/Landingpage/Testimony/Testimony'
@@ -27,6 +28,7 @@ export default function Home() {
       <Bikeservice/>
       <Popularpackage/>
       <Testimony/>
+      <Footer/>
     </div>
   )
 }

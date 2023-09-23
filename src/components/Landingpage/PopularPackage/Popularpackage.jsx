@@ -31,7 +31,7 @@ const Popularpackage = () => {
                                     <i className='text-[orange]'>{pop.icon4}</i>
                                     <p>{pop.icon4det}</p>
                                 </div>
-                                <button href={pop.link} className='border-2 border-[orange] py-3 rounded-xl w-full'> Book Now</button>
+                                <Link href={pop.link} className='border-2 border-[orange] py-3 flex justify-center rounded-xl w-full'>Book Now</Link>
                             </div>
                         </div>
                     )
