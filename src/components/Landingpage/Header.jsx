@@ -9,7 +9,12 @@ import { FiX } from 'react-icons/fi'
 
 const Header = () => {
     const [openHamburger, setOpenHamburger] = useState(false)
+    const [active, setActive] = useState("home")
     const [login, setLogin] = useState(false)
+
+    const handlenavclick = (home) =>{
+        setActive(home)
+    }
 
     const handleHamburger = () => {
         setOpenHamburger(!openHamburger)
@@ -21,10 +26,10 @@ const Header = () => {
             </div>
             <div className='hidden lg:flex w-[68%] justify-between'>
                 <div className='flex gap-7  text-white items-center'>
-                    <Link href="/" >Home</Link>
-                    <Link href="/aboutus" >About us</Link>
-                    <Link href="/tour-packages" >Tour Packages</Link>
-                    <Link href="/contact-us" >Contact Us</Link>
+                    <Link onClick={()=> handlenavclick("home")} className={active==="home"? "bg-[orange] p-3 rounded-xl":""} href="/" >Home</Link>
+                    <Link onClick={()=> handlenavclick("aboutus")} className={active==="aboutus"? "bg-[orange] p-3 rounded-xl":""} href="/aboutus" >About us</Link>
+                    <Link onClick={()=> handlenavclick("tour-packages")} className={active==="tour-packages"? "bg-[orange] p-3 rounded-xl":""} href="/tour-packages" >Tour Packages</Link>
+                    <Link onClick={()=> handlenavclick("contact-us")} className={active==="contact-us"? "bg-[orange] p-3 rounded-xl":""} href="/contact-us" >Contact Us</Link>
                 </div>
 
                 <div className='w-[28%] flex justify-between items-center'>
