@@ -12,7 +12,7 @@ const Header = () => {
     const [active, setActive] = useState("home")
     const [login, setLogin] = useState(false)
 
-    const handlenavclick = (home) =>{
+    const handlenavclick = ({home,aboutuse}) =>{
         setActive(home)
     }
 
