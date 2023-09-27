@@ -7,7 +7,7 @@ import { MdPriceCheck } from 'react-icons/md'
 
 const AboutCard = () => {
   return (
-    <div className='bg-[url(/Images/orange-bg.svg)] bg-no-repeat gap-8 bg-center grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 px-[10%]'>
+    <div className='bg-[url(/Images/orange-bg.svg)] py-5 bg-no-repeat gap-8 bg-center grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 px-[10%]'>
         <div className='bg-[#FED] p-3 rounded-lg flex flex-col items-center'>
             <GrMapLocation className='text-3xl text-[orange]'/>
             <b className='capitalize w-[60%] text-center leading-loose'>Complete Packages for all your Wishes</b>
