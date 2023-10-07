@@ -29,7 +29,7 @@ const Header2 = () => {
                     <Link onClick={()=> handlenavclick("home")} className='focus:bg-[orange] p-3 rounded-xl' href="/" >Home</Link>
                     <Link onClick={()=> handlenavclick("aboutus")} className={active==="aboutus"? "bg-[orange] p-3 rounded-xl":""} href="/aboutus" >About us</Link>
                     <Link onClick={()=> handlenavclick("tour-packages")} className={active==="tour-packages"? "bg-[orange] p-3 rounded-xl":""} href="/tour-packages" >Tour Packages</Link>
-                    <Link onClick={()=> handlenavclick("contact-us")} className={active==="contact-us"? "bg-[orange] p-3 rounded-xl":""} href="/contact-us" >Contact Us</Link>
+                    <Link onClick={()=> handlenavclick("contact-us")} className={active==="contact-us"? "bg-[orange] p-3 rounded-xl":""} href="/contactus" >Contact Us</Link>
                 </div>
 
                 <div className='w-[28%] flex justify-between items-center'>

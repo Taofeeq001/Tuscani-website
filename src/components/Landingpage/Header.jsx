@@ -51,7 +51,7 @@ const Header = () => {
                 <Link href="/" >Home</Link>
                 <Link href="/aboutus" >About us</Link>
                 <Link href="/tour-packages" >Tour Packages</Link>
-                <Link href="/contact-us" >Contact Us</Link>
+                <Link href="/contactus" >Contact Us</Link>
                 <Link href="/login" >Login</Link>
                 <Link className='px-3 py-2 cursor-pointer bg-[orange] rounded-lg text-white' href="/signup" >Sign Up</Link>
             </div>
