@@ -50,7 +50,6 @@ const Contactus = () => {
             {/* ========================MAP SHOWING THE DIRECTION HERE ================================= */}
             <div>
                 <Image height={250} width={250} className='w-full' src={"/Images/Rectangle 33.svg"}  />
-                
             </div>
             <Footer/>
         </div>
