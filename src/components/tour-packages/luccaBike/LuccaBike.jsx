@@ -21,11 +21,11 @@ const LuccaBike = () => {
                 </div>
                 <div className='flex gap-[3rem] lg:flex-row flex-col'>
                     <div className='flex flex-col gap-2 lg:w-1/2 w-full'>
-                        <Image height={450} width={450} className='w-full flex justify-start' src={"/Images/wine-details.svg"} />
+                        <Image height={450} width={450} className='w-full flex justify-start' src={"/Images/Rectangle 39.svg"} />
                         <div className='grid lg:grid-cols-3 md:grid-cols-3 grid-cols-3 w-full gap-5'>
-                            <Image height={100} width={200} src={"/Images/Rectangle 40.svg"} />
-                            <Image height={100} width={200} src={"/Images/Rectangle 41.svg"} />
-                            <Image height={100} width={200} src={"/Images/Rectangle 42.svg"} />
+                            <Image height={100} width={200} src={"/Images/R1.svg"} />
+                            <Image height={100} width={200} src={"/Images/R2.svg"} />
+                            <Image height={100} width={200} src={"/Images/R3.svg"} />
                         </div>
                     </div>
                     <div className='flex flex-col lg:w-1/2 w-full gap-2'>
