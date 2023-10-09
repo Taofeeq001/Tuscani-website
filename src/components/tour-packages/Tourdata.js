@@ -40,7 +40,7 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "10 - 50 PP",
         details: "Visiting the 5 Terre is a must, and you can never go there enough ... ",
-        link: "/clinque-details"
+        link: "/tour-packages/clinque-details"
     },
     {
         img: luca,
