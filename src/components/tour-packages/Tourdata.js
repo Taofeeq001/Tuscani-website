@@ -2,10 +2,8 @@
 import luca from 'public/Images/Luka.svg'
 import wine from 'public/Images/wine.svg'
 import cinque from 'public/Images/cinque.svg'
-import last from 'public/Images/last.svg'
 
 import {PiTimer} from 'react-icons/pi'
-import Image from 'next/image'
 
 export const dest = [
     {
@@ -18,7 +16,7 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "3 - 10 PP",
         details: "A tour of the city and its surroundings led by a professional guide ...",
-        link: "/luca-details"
+        link: "/tour-packages/luccaBike"
     },
     {
         img: wine,
@@ -30,7 +28,7 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "10 - 30 PP",
         details: "Visiting the 5 Terre is a must, and you can never go there enough ... ",
-        link: "/wine-details"
+        link: "/tour-packages/tourpackagesDetails"
     },
     {
         img: cinque,
