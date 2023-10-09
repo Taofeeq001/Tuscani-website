@@ -52,7 +52,7 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "5 - 10 PP",
         details: "Visit the beautiful Siena and the cities that surround it to experience ...",
-        link: "/siena-details"
+        link: "/tour-packages/siena-details"
     },
     {
         img: luca,
