@@ -4,11 +4,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { FiX } from 'react-icons/fi'
-import { Signin } from './CreateAccount/Accounts'
 
 
 
-const Header = () => {
+const Header = ({handleLogin}) => {
     const [openHamburger, setOpenHamburger] = useState(false)
     const [active, setActive] = useState("home")
     const [login, setLogin] = useState(false)
@@ -21,14 +20,10 @@ const Header = () => {
         setOpenHamburger(!openHamburger)
     }
 
-    const handleLogin = ()=>{
-        setSign(!sign)
-    }
-
-
+    
     return (
         <section>
-        <div className={`${sign? "opacity-40":""} flex justify-between px-[10%] py-3 w-full items-center backdrop-blur-[6px]`}>
+        <div className={`flex justify-between px-[10%] py-3 w-full items-center backdrop-blur-[6px]`}>
             <div className='w-[30%]'>
                 <Image height={100} width={100} src="/Images/tus-logo.svg" />
             </div>
@@ -37,7 +32,7 @@ const Header = () => {
                     <Link onClick={()=> handlenavclick("home")} className={active==="home"? "bg-[orange] p-3 rounded-xl":""} href="/" >Home</Link>
                     <Link onClick={()=> handlenavclick("aboutus")} className={active==="aboutus"? "bg-[orange] p-3 rounded-xl":""} href="/aboutus" >About us</Link>
                     <Link onClick={()=> handlenavclick("tour-packages")} className={active==="tour-packages"? "bg-[orange] p-3 rounded-xl":""} href="/tour-packages" >Tour Packages</Link>
-                    <Link onClick={()=> handlenavclick("contact-us")} className={active==="contact-us"? "bg-[orange] p-3 rounded-xl":""} href="/contact-us" >Contact Us</Link>
+                    <Link onClick={()=> handlenavclick("contact-us")} className={active==="contact-us"? "bg-[orange] p-3 rounded-xl":""} href="/contactus" >Contact Us</Link>
                 </div>
 
                 <div className='w-[28%] flex justify-between items-center'>
@@ -64,7 +59,6 @@ const Header = () => {
                 <Link className='px-3 py-2 cursor-pointer bg-[orange] rounded-lg text-white' href="/signup" >Sign Up</Link>
             </div>
         </div>
-            {/* <Signin /> */}
         </section>
     )
 }

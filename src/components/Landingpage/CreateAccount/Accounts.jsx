@@ -3,7 +3,7 @@ import React from 'react'
 import { FiX } from 'react-icons'
 import Link from 'next/link'
 
-const Signin = ({ signIn, setSignIn}) => {
+const SignUp = () => {
     return (
         <div className='flex flex-col justify-center items-center w-full h-[100vh]'>
             <div className='bg-white rounded-2xl p-3 w-[30%]'>
@@ -47,7 +47,7 @@ const Signin = ({ signIn, setSignIn}) => {
         </div>
     )
 }
-export default Signin;
+export default SignUp;
 
 // import { TbBrandGoogle, TbEye } from 'react-icons/tb'
 

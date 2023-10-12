@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "Podcast";
-  src: url("/font/Podcast/Podcast.ttf")
+  src: url("/font/podcast/Podcast.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-/* .head{
+.head{
   font-family: Podcast !important;
-} */
+}
