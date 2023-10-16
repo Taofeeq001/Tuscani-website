@@ -2,8 +2,9 @@
 import React from 'react'
 import { FiX } from 'react-icons'
 import Link from 'next/link'
+import { TbBrandGoogle, TbEye } from 'react-icons/tb'
 
-const SignUp = () => {
+const SignUp = ({setSignIn, signIn}) => {
     return (
         <div className='flex flex-col justify-center items-center w-full h-[100vh]'>
             <div className='bg-white rounded-2xl p-3 w-[30%]'>

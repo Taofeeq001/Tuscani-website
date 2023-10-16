@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 import { FiX } from 'react-icons/fi'
 import { TbEyeCheck, TbEyeClosed } from 'react-icons/tb'
@@ -10,6 +9,7 @@ const Login = ({ close }) => {
     const [email, setEmail] = useState("")
     const [show, setShow] = useState(false)
     const [closeModal, setcloseModal] = useState(false)
+    //const [login, setlogin] = useState(false)
     const handlepass = () => {
         setShow(!show)
     }
@@ -18,12 +18,13 @@ const Login = ({ close }) => {
             setcloseModal(!closeModal)
         }
     }
+
     return (
         <div onClick={handleclosemodal} className='flex flex-col w-full h-[100vh] fixed top-0 left-0'>
             <div className='flex flex-col z-[500] items-center justify-center man w-full h-[100vh]'>
                 <div className='bg-white w-[30%] rounded-xl p-7 flex flex-col gap-2'>
                     <div className='w-full flex justify-between'>
-                        <p>Create an Account</p>
+                        <p>Create an Account bbbbb</p>
                         <FiX className='text-3xl cursor-pointer' onClick={close} />
                     </div>
                     <form className='w-full flex flex-col' action="">

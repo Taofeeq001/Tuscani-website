@@ -30,7 +30,7 @@ const Clinque = () => {
                     </div>
                     <div className='flex flex-col lg:w-1/2 w-full gap-2'>
                         <h1 className='lg:text-4xl text-2xl font-bold'>Clinque Terre Tour</h1>
-                        <p>from <span className='text-[orange] font-bold'> 34 &euro;</span></p>
+                        <p>from <span className='text-[orange] font-bold'> 34</span></p>
                         <p className='text-[22px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                         <div className='flex flex-col w-[45%] gap-3'>
                             <div>

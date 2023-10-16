@@ -10,6 +10,7 @@ const Hero = () => {
   const [active, setActive] = useState("public")
   const [isOpen, setIsOpen] = useState(false)
   const [loginopen, setLoginopen] = useState(false)
+  
   const tabs = [
     {
       id: 'public',
@@ -30,6 +31,9 @@ const Hero = () => {
   const handleclose = ()=>{
     setLoginopen(!loginopen)
   }
+  // const close = ()=>{
+
+  // }
 
   return (
     <div className='bg-[url(/Images/herobg.svg)] bg-no-repeat bg-center h-[100vh] w-full flex flex-col'>
@@ -61,7 +65,7 @@ const Hero = () => {
       </div>
       {
         isOpen && (
-          <Login login={loginopen} setLogin={setLoginopen} />
+          <Login close={()=> setIsOpen(false)} />
         )
       }
     </div>

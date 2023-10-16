@@ -8,13 +8,13 @@ const Popularpackage = () => {
     return (
         <div className='container grid lg:grid-cols-4 gap-7 md:grid-cols-2 grid-cols-1 py-[8%]'>
             {
-                popularity.map((pop) => {
+                popularity.map((pop, i) => {
                     return (
-                        <div className='flex flex-col gap-4 w-full shadow-md shadow-[grey] rounded-3xl'>
+                        <div key={i} className='flex flex-col gap-4 w-full shadow-md shadow-[grey] rounded-3xl'>
                             <Image className='w-full' src={pop.image} />
                             <div className='rounded-b-xl p-5 flex flex-col gap-3'>
                                 <h1>{pop.title}</h1>
-                                <p><sup>&euro;</sup><span className='font-bold text-3xl text-[orange]'>{pop.price}</span><sub>/day</sub></p>
+                                <p><sup>&#39;</sup><span className='font-bold text-3xl text-[orange]'>{pop.price}</span><sub>/day</sub></p>
                                 <div className='flex gap-2 items-center'>
                                     <i className='text-[orange]'>{pop.icon1}</i>
                                     <p>{pop.icon1det}</p>
