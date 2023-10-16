@@ -2,6 +2,10 @@
 import luca from 'public/Images/Luka.svg'
 import wine from 'public/Images/wine.svg'
 import cinque from 'public/Images/cinque.svg'
+import luccahills from 'public/Images/luccahills.svg'
+import florence from 'public/Images/florence.svg'
+import gardaland from 'public/Images/gardaland.svg'
+import Piscalucca from 'public/Images/Piscalucca.svg'
 
 import {PiTimer} from 'react-icons/pi'
 
@@ -55,8 +59,8 @@ export const dest = [
         link: "/tour-packages/siena-details"
     },
     {
-        img: luca,
-        title: "Siena and Surrounding",
+        img: luccahills,
+        title: "Tour of the Lucca Hills",
         from : "from",
         amount: "34$",
         icon: <PiTimer/>,
@@ -64,11 +68,11 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "5 - 10 PP",
         details: "Visit the beautiful Siena and the cities that surround it to experience ...",
-        link: "/sienasurround-details"
+        link: "/tour-packages/tour-lucca"
     },
     {
-        img: luca,
-        title: "Siena and Surrounding",
+        img: gardaland,
+        title: "Gardaland, Verona",
         from : "from",
         amount: "34$",
         icon: <PiTimer/>,
@@ -76,11 +80,11 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "5 - 10 PP",
         details: "Visit the beautiful Siena and the cities that surround it to experience ...",
-        link: "/siena-details"
+        link: "/tour-packages/gardaland"
     },
     {
-        img: luca,
-        title: "Siena and Surrounding",
+        img: Piscalucca,
+        title: "Pisca and Lucca",
         from : "from",
         amount: "34$",
         icon: <PiTimer/>,
@@ -88,11 +92,11 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "5 - 10 PP",
         details: "Visit the beautiful Siena and the cities that surround it to experience ...",
-        link: "/sienasurround-details"
+        link: "/tour-packages/pisca"
     },
     {
-        img: luca,
-        title: "Siena and Surrounding",
+        img: florence,
+        title: "Florence",
         from : "from",
         amount: "34$",
         icon: <PiTimer/>,
@@ -100,6 +104,6 @@ export const dest = [
         icon2: <PiTimer/>, 
         pp: "5 - 10 PP",
         details: "Visit the beautiful Siena and the cities that surround it to experience ...",
-        link: "/sienasurround-details"
+        link: "/tour-packages/florence"
     },
 ]
