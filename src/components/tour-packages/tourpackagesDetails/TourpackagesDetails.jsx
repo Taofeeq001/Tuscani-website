@@ -8,6 +8,7 @@ import Testimony from '@/components/Landingpage/Testimony/Testimony'
 import Footer from '@/components/Landingpage/Footer'
 import Gallery from './Gallery'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 
 const TourpackagesDetails = () => {
   
@@ -44,7 +45,7 @@ const TourpackagesDetails = () => {
                 <p className='text-xl font-bold'>Time</p>
                 <input className='w-full border-2 border-gray-500 p-2 rounded-e-lg' type="time" />
               </div>
-              <button className='bg-[orange] p-2 rounded-md text-xl text-white'>Buy Now</button>
+              <Link href={"/tour-packages/contact"} className='bg-[orange] p-2 rounded-md text-xl text-white'>Buy Now</Link>
             </div>
           </div>
         </div>
